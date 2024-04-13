@@ -10,7 +10,7 @@ clean:
 	rm -f a.out
 
 uninstall:
-	rm -f /usr/local/bin/airpods_autoswitch
+	sudo rm -f /usr/local/bin/airpods_autoswitch
 	launchctl unload ~/Library/LaunchAgents/com.airpods.autoswitch.plist
 	rm -f ~/Library/LaunchAgents/com.airpods.autoswitch.plist
 
